@@ -1,10 +1,32 @@
+h1
+{
+  font-family: Alegreya Sans SC;
+  font-size: 36px;
+  color: #c1f7fd;
+}
+
+h2
+{
+  font-family:Alegreya Sans SC;
+  font-size: 30px;
+  color: #c1f7fd;
+}
 /* To add background*/
-  
+html {
+  height: 100%;
+  background-color:#090a0f;
+  overflow: auto;
+}
+body {
+  background:transparent;
+  }
+ 
 .lamp{
     position: absolute;
     top: 100%;
+    bottom:100%;
     left: 50%;
-    transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
     
      width: 100vw;
     min-width: 100vw;
@@ -22,8 +44,12 @@
   
   .blob{
     border-radius: 50%;
-    background: #e8630a;
-    position:absolute;
+    background: #e0acf6;
+    position:fixed;
+    bottom:0;
+    right:0;
+    top:auto;
+    left:auto;
   }
         
   
@@ -192,7 +218,7 @@
 {
 display: inline-block;
 vertical-align: middle;
-color:black;
+color: #ffe1a0;
 margin: 0px;
 margin-right:25px;
 }
@@ -217,7 +243,7 @@ nav
 {
 width: 73%;
 padding-left: 45%;
-color: black;
+color: #ffe1a0;
 }
 
 /* Hero Block*/
@@ -232,7 +258,10 @@ padding: 25px;
 {
  width: 500px; 
 margin:0 auto; 
-color: black;
+color: #ffe1a0;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-variant: normal;
 }
 
 .Content
@@ -251,10 +280,12 @@ margin-left: 75%;
 }
 
 /*button*/
-button1
+.Resume_Button: hover, .Resume_Button: Focus
 {
-  background-color: teal;
-  color: Black;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+
+  background-color: #ffa260;
 }
 
 /*footer block*/
