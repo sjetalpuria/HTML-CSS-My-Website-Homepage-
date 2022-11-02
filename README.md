@@ -1,1 +1,1 @@
-# UX_UI_HW_17
+During my Frontend learning in UCI we had to design and deliver our own HTML/CSS/JS website into different milestones. This is the initial milestone in which I have designed and developed my (old) website's homepage. 
